@@ -254,62 +254,62 @@ configuration DoD_Windows_11_v2r2
     if ($SuppressionPolicy_BatFile) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Classes\batfile\shell\runasuser\SuppressionPolicy'
         {
-            Key = '\SOFTWARE\Classes\batfile\shell\runasuser'
+            Key = 'SOFTWARE\Classes\batfile\shell\runasuser'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'SuppressionPolicy'
             ValueData = 4096
         }
     }
-    
+
     if ($SuppressionPolicy_CmdFile) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Classes\cmdfile\shell\runasuser\SuppressionPolicy'
         {
-            Key = '\SOFTWARE\Classes\cmdfile\shell\runasuser'
+            Key = 'SOFTWARE\Classes\cmdfile\shell\runasuser'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'SuppressionPolicy'
             ValueData = 4096
         }
     }
-    
+
     if ($SuppressionPolicy_ExeFile) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Classes\exefile\shell\runasuser\SuppressionPolicy'
         {
-            Key = '\SOFTWARE\Classes\exefile\shell\runasuser'
+            Key = 'SOFTWARE\Classes\exefile\shell\runasuser'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'SuppressionPolicy'
             ValueData = 4096
         }
     }
-    
+
     if ($SuppressionPolicy_MscFile) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Classes\mscfile\shell\runasuser\SuppressionPolicy'
         {
-            Key = '\SOFTWARE\Classes\mscfile\shell\runasuser'
+            Key = 'SOFTWARE\Classes\mscfile\shell\runasuser'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'SuppressionPolicy'
             ValueData = 4096
         }
     }
-    
+
     if ($AutoConnectAllowedOEM) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\wcmsvc\wifinetworkmanager\config\AutoConnectAllowedOEM'
         {
-            Key = '\SOFTWARE\Microsoft\wcmsvc\wifinetworkmanager\config'
+            Key = 'SOFTWARE\Microsoft\wcmsvc\wifinetworkmanager\config'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AutoConnectAllowedOEM'
             ValueData = 0
         }
     }
-    
+
     if ($EnumerateAdministrators) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\CredUI\EnumerateAdministrators'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\CredUI'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\CredUI'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnumerateAdministrators'
@@ -320,62 +320,62 @@ configuration DoD_Windows_11_v2r2
     if ($NoStartBanner) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoStartBanner'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoStartBanner'
             ValueData = 1
         }
     }
-    
+
     if ($NoWebServices) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoWebServices'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoWebServices'
             ValueData = 1
         }
     }
-    
+
     if ($NoAutorun) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoAutorun'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoAutorun'
             ValueData = 1
         }
     }
-    
+
     if ($NoDriveTypeAutoRun) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoDriveTypeAutoRun'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoDriveTypeAutoRun'
             ValueData = 255
         }
     }
-    
+
     if ($PreXPSP2ShellProtocolBehavior) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\PreXPSP2ShellProtocolBehavior'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'PreXPSP2ShellProtocolBehavior'
             ValueData = 0
         }
     }
-    
+
     if ($PasswordComplexity) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS\PasswordComplexity'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'PasswordComplexity'
@@ -386,73 +386,73 @@ configuration DoD_Windows_11_v2r2
     if ($PasswordLength) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS\PasswordLength'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'PasswordLength'
             ValueData = 14
         }
     }
-    
+
     if ($PasswordAgeDays) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS\PasswordAgeDays'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\LAPS'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'PasswordAgeDays'
             ValueData = 60
         }
     }
-    
+
     if ($LocalAccountTokenFilterPolicy) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\LocalAccountTokenFilterPolicy'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'LocalAccountTokenFilterPolicy'
             ValueData = 0
         }
     }
-    
+
     if ($MSAOptional) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\MSAOptional'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'MSAOptional'
             ValueData = 1
         }
     }
-    
+
     if ($DisableAutomaticRestartSignOn) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\DisableAutomaticRestartSignOn'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableAutomaticRestartSignOn'
             ValueData = 1
         }
     }
-    
+
     if ($ProcessCreationIncludeCmdLine_Enabled) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit\ProcessCreationIncludeCmdLine_Enabled'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'ProcessCreationIncludeCmdLine_Enabled'
             ValueData = 1
         }
     }
-    
+
     if ($DevicePKInitEnabled) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters\DevicePKInitEnabled'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DevicePKInitEnabled'
@@ -463,73 +463,73 @@ configuration DoD_Windows_11_v2r2
     if ($DevicePKInitBehavior) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters\DevicePKInitBehavior'
         {
-            Key = '\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters'
+            Key = 'SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DevicePKInitBehavior'
             ValueData = 0
         }
     }
-    
+
     if ($EnhancedAntiSpoofing) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Biometrics\FacialFeatures\EnhancedAntiSpoofing'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Biometrics\FacialFeatures'
+            Key = 'SOFTWARE\Policies\Microsoft\Biometrics\FacialFeatures'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnhancedAntiSpoofing'
             ValueData = 1
         }
     }
-    
+
     if ($EccCurves) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002\EccCurves'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002'
+            Key = 'SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002'
             ValueType = 'MultiString'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EccCurves'
             ValueData = 'NistP384NistP256'
         }
     }
-    
+
     if ($UseAdvancedStartup) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\FVE\UseAdvancedStartup'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\FVE'
+            Key = 'SOFTWARE\Policies\Microsoft\FVE'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'UseAdvancedStartup'
             ValueData = 1
         }
     }
-    
+
     if ($EnableBDEWithNoTPM) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\FVE\EnableBDEWithNoTPM'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\FVE'
+            Key = 'SOFTWARE\Policies\Microsoft\FVE'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnableBDEWithNoTPM'
             ValueData = 1
         }
     }
-    
+
     if ($UseTPM) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\FVE\UseTPM'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\FVE'
+            Key = 'SOFTWARE\Policies\Microsoft\FVE'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'UseTPM'
             ValueData = 2
         }
     }
-    
+
     if ($UseTPMPIN) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\FVE\UseTPMPIN'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\FVE'
+            Key = 'SOFTWARE\Policies\Microsoft\FVE'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'UseTPMPIN'
@@ -540,73 +540,73 @@ configuration DoD_Windows_11_v2r2
     if ($UseTPMKey) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\FVE\UseTPMKey'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\FVE'
+            Key = 'SOFTWARE\Policies\Microsoft\FVE'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'UseTPMKey'
             ValueData = 2
         }
     }
-    
+
     if ($UseTPMKeyPIN) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\FVE\UseTPMKeyPIN'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\FVE'
+            Key = 'SOFTWARE\Policies\Microsoft\FVE'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'UseTPMKeyPIN'
             ValueData = 2
         }
     }
-    
+
     if ($MinimumPIN) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\FVE\MinimumPIN'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\FVE'
+            Key = 'SOFTWARE\Policies\Microsoft\FVE'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'MinimumPIN'
             ValueData = 6
         }
     }
-    
+
     if ($DisableEnclosureDownload) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds\DisableEnclosureDownload'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds'
+            Key = 'SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableEnclosureDownload'
             ValueData = 1
         }
     }
-    
+
     if ($AllowBasicAuthInClear) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds\AllowBasicAuthInClear'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds'
+            Key = 'SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowBasicAuthInClear'
             ValueData = 0
         }
     }
-    
+
     if ($NotifyDisableIEOptions) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\NotifyDisableIEOptions'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Internet Explorer\Main'
+            Key = 'SOFTWARE\Policies\Microsoft\Internet Explorer\Main'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NotifyDisableIEOptions'
             ValueData = 0
         }
     }
-    
+
     if ($RequireSecurityDevice) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\PassportForWork\RequireSecurityDevice'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\PassportForWork'
+            Key = 'SOFTWARE\Policies\Microsoft\PassportForWork'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'RequireSecurityDevice'
@@ -617,84 +617,84 @@ configuration DoD_Windows_11_v2r2
     if ($TPM12) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\PassportForWork\ExcludeSecurityDevices\TPM12'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\PassportForWork\ExcludeSecurityDevices'
+            Key = 'SOFTWARE\Policies\Microsoft\PassportForWork\ExcludeSecurityDevices'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'TPM12'
             ValueData = 0
         }
     }
-    
+
     if ($MinimumPINLength) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\PassportForWork\PINComplexity\MinimumPINLength'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\PassportForWork\PINComplexity'
+            Key = 'SOFTWARE\Policies\Microsoft\PassportForWork\PINComplexity'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'MinimumPINLength'
             ValueData = 6
         }
     }
-    
+
     if ($DCSettingIndex) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51\DCSettingIndex'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51'
+            Key = 'SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DCSettingIndex'
             ValueData = 1
         }
     }
-    
+
     if ($ACSettingIndex) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51\ACSettingIndex'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51'
+            Key = 'SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'ACSettingIndex'
             ValueData = 1
         }
     }
-    
+
     if ($DisableInventory) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppCompat\DisableInventory'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\AppCompat'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\AppCompat'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableInventory'
             ValueData = 1
         }
     }
-    
+
     if ($LetAppsActivateWithVoiceAboveLock) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy\LetAppsActivateWithVoiceAboveLock'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\AppPrivacy'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'LetAppsActivateWithVoiceAboveLock'
             ValueData = 2
         }
     }
-    
+
     if ($DisableWindowsConsumerFeatures) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent\DisableWindowsConsumerFeatures'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\CloudContent'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\CloudContent'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableWindowsConsumerFeatures'
             ValueData = 1
         }
     }
-    
+
     if ($AllowProtectedCreds) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation\AllowProtectedCreds'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowProtectedCreds'
@@ -705,73 +705,73 @@ configuration DoD_Windows_11_v2r2
     if ($LimitEnhancedDiagnosticDataWindowsAnalytics) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection\LimitEnhancedDiagnosticDataWindowsAnalytics'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DataCollection'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DataCollection'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'LimitEnhancedDiagnosticDataWindowsAnalytics'
             ValueData = 1
         }
     }
-    
+
     if ($AllowTelemetry) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection\AllowTelemetry'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DataCollection'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DataCollection'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowTelemetry'
             ValueData = 1
         }
     }
-    
+
     if ($DODownloadMode) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization\DODownloadMode'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DODownloadMode'
             ValueData = 2
         }
     }
-    
+
     if ($EnableVirtualizationBasedSecurity) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard\EnableVirtualizationBasedSecurity'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnableVirtualizationBasedSecurity'
             ValueData = 1
         }
     }
-    
+
     if ($RequirePlatformSecurityFeatures) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard\RequirePlatformSecurityFeatures'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'RequirePlatformSecurityFeatures'
             ValueData = 1
         }
     }
-    
+
     if ($HypervisorEnforcedCodeIntegrity) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard\HypervisorEnforcedCodeIntegrity'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'HypervisorEnforcedCodeIntegrity'
             ValueData = 1
         }
     }
-    
+
     if ($HVCIMATRequired) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard\HVCIMATRequired'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'HVCIMATRequired'
@@ -782,73 +782,73 @@ configuration DoD_Windows_11_v2r2
     if ($LsaCfgFlags) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard\LsaCfgFlags'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'LsaCfgFlags'
             ValueData = 1
         }
     }
-    
+
     if ($ConfigureSystemGuardLaunch) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard\ConfigureSystemGuardLaunch'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'ConfigureSystemGuardLaunch'
             ValueData = 0
         }
     }
-    
+
     if ($MaxSizeApplicationLog) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application\MaxSize'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\EventLog\Application'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'MaxSize'
             ValueData = 32768
         }
     }
-    
+
     if ($MaxSizeSecurityLog) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Security\MaxSize'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\EventLog\Security'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\EventLog\Security'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'MaxSize'
             ValueData = 1024000
         }
     }
-    
+
     if ($MaxSizeSystemLog) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\System\MaxSize'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\EventLog\System'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\EventLog\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'MaxSize'
             ValueData = 32768
         }
     }
-    
+
     if ($NoAutoplayForNonVolume) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Explorer\NoAutoplayfornonVolume'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Explorer'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoAutoplayfornonVolume'
             ValueData = 1
         }
     }
-    
+
     if ($NoDataExecutionPrevention) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Explorer\NoDataExecutionPrevention'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Explorer'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoDataExecutionPrevention'
@@ -859,62 +859,62 @@ configuration DoD_Windows_11_v2r2
     if ($NoHeapTerminationOnCorruption) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Explorer\NoHeapTerminationOnCorruption'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Explorer'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Explorer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoHeapTerminationOnCorruption'
             ValueData = 0
         }
     }
-    
+
     if ($AllowGameDVR) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR\AllowGameDVR'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\GameDVR'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\GameDVR'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowGameDVR'
             ValueData = 0
         }
     }
-    
+
     if ($NoBackgroundPolicy) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}\NoBackgroundPolicy'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoBackgroundPolicy'
             ValueData = 0
         }
     }
-    
+
     if ($NoGPOListChanges) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}\NoGPOListChanges'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoGPOListChanges'
             ValueData = 0
         }
     }
-    
+
     if ($EnableUserControl) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Installer\EnableUserControl'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Installer'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Installer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnableUserControl'
             ValueData = 0
         }
     }
-    
+
     if ($AlwaysInstallElevated) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Installer'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Installer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AlwaysInstallElevated'
@@ -925,73 +925,73 @@ configuration DoD_Windows_11_v2r2
     if ($SafeForScripting) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Installer\SafeForScripting'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Installer'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Installer'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'SafeForScripting'
             ValueData = 0
         }
     }
-    
+
     if ($DeviceEnumerationPolicy) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Kernel DMA Protection\DeviceEnumerationPolicy'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Kernel DMA Protection'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Kernel DMA Protection'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DeviceEnumerationPolicy'
             ValueData = 0
         }
     }
-    
+
     if ($AllowInsecureGuestAuth) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation\AllowInsecureGuestAuth'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowInsecureGuestAuth'
             ValueData = 0
         }
     }
-    
+
     if ($NC_ShowSharedAccessUI) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Network Connections\NC_ShowSharedAccessUI'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Network Connections'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Network Connections'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NC_ShowSharedAccessUI'
             ValueData = 0
         }
     }
-    
+
     if ($HardenedPaths_SYSVOL) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths\*\SYSVOL'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths'
             ValueType = 'String'
             TargetType = 'ComputerConfiguration'
             ValueName = '\\*\SYSVOL'
             ValueData = 'RequireMutualAuthentication=1, RequireIntegrity=1'
         }
     }
-    
+
     if ($HardenedPaths_NETLOGON) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths\*\NETLOGON'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths'
             ValueType = 'String'
             TargetType = 'ComputerConfiguration'
             ValueName = '\\*\NETLOGON'
             ValueData = 'RequireMutualAuthentication=1, RequireIntegrity=1'
         }
     }
-    
+
     if ($NoLockScreenCamera) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization\NoLockScreenCamera'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Personalization'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Personalization'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoLockScreenCamera'
@@ -1002,29 +1002,29 @@ configuration DoD_Windows_11_v2r2
     if ($NoLockScreenSlideshow) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization\NoLockScreenSlideshow'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Personalization'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Personalization'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoLockScreenSlideshow'
             ValueData = 1
         }
     }
-    
+
     if ($EnableScriptBlockLogging) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging\EnableScriptBlockLogging'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnableScriptBlockLogging'
             ValueData = 1
         }
     }
-    
+
     if ($EnableScriptBlockInvocationLogging) {
         RegistryPolicyFile 'DEL_\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging\EnableScriptBlockInvocationLogging'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging'
             ValueType = 'String'
             Ensure = 'Absent'
             TargetType = 'ComputerConfiguration'
@@ -1032,33 +1032,33 @@ configuration DoD_Windows_11_v2r2
             ValueData = ''
         }
     }
-    
+
     if ($EnableTranscripting) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription\EnableTranscripting'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnableTranscripting'
             ValueData = 1
         }
     }
-    
+
     if ($OutputDirectory) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription\OutputDirectory'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription'
             ValueType = 'String'
             TargetType = 'ComputerConfiguration'
             ValueName = 'OutputDirectory'
             ValueData = 'C:\ProgramData\PS_Transcript'
         }
     }
-    
+
     if ($EnableInvocationHeader) {
         RegistryPolicyFile 'DEL_\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription\EnableInvocationHeader'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription'
             ValueType = 'String'
             Ensure = 'Absent'
             TargetType = 'ComputerConfiguration'
@@ -1070,62 +1070,62 @@ configuration DoD_Windows_11_v2r2
     if ($DontDisplayNetworkSelectionUI) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\DontDisplayNetworkSelectionUI'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\System'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DontDisplayNetworkSelectionUI'
             ValueData = 1
         }
     }
-    
+
     if ($EnumerateLocalUsers) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\EnumerateLocalUsers'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\System'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnumerateLocalUsers'
             ValueData = 0
         }
     }
-    
+
     if ($EnableSmartScreen) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\EnableSmartScreen'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\System'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnableSmartScreen'
             ValueData = 1
         }
     }
-    
+
     if ($ShellSmartScreenLevel) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\ShellSmartScreenLevel'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\System'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\System'
             ValueType = 'String'
             TargetType = 'ComputerConfiguration'
             ValueName = 'ShellSmartScreenLevel'
             ValueData = 'Block'
         }
     }
-    
+
     if ($AllowDomainPINLogon) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\AllowDomainPINLogon'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\System'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\System'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowDomainPINLogon'
             ValueData = 0
         }
     }
-    
+
     if ($fMinimizeConnections) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy\fMinimizeConnections'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'fMinimizeConnections'
@@ -1136,62 +1136,62 @@ configuration DoD_Windows_11_v2r2
     if ($fBlockNonDomain) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy\fBlockNonDomain'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'fBlockNonDomain'
             ValueData = 1
         }
     }
-    
+
     if ($AllowIndexingEncryptedStoresOrItems) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search\AllowIndexingEncryptedStoresOrItems'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\Windows Search'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\Windows Search'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowIndexingEncryptedStoresOrItems'
             ValueData = 0
         }
     }
-    
+
     if ($AllowBasicClient) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client\AllowBasic'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WinRM\Client'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowBasic'
             ValueData = 0
         }
     }
-    
+
     if ($AllowUnencryptedTraffic) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client\AllowUnencryptedTraffic'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WinRM\Client'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowUnencryptedTraffic'
             ValueData = 0
         }
     }
-    
+
     if ($AllowDigest) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client\AllowDigest'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WinRM\Client'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowDigest'
             ValueData = 0
         }
     }
-    
+
     if ($AllowBasicService) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service\AllowBasic'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WinRM\Service'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowBasic'
@@ -1202,62 +1202,62 @@ configuration DoD_Windows_11_v2r2
     if ($AllowUnencryptedTraffic) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service\AllowUnencryptedTraffic'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WinRM\Service'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowUnencryptedTraffic'
             ValueData = 0
         }
     }
-    
+
     if ($DisableRunAs) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service\DisableRunAs'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows\WinRM\Service'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableRunAs'
             ValueData = 1
         }
     }
-    
+
     if ($DisableWebPnPDownload) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers\DisableWebPnPDownload'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Printers'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Printers'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableWebPnPDownload'
             ValueData = 1
         }
     }
-    
+
     if ($DisableHTTPPrinting) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Printers\DisableHTTPPrinting'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Printers'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Printers'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableHTTPPrinting'
             ValueData = 1
         }
     }
-    
+
     if ($RestrictRemoteClients) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Rpc\RestrictRemoteClients'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Rpc'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Rpc'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'RestrictRemoteClients'
             ValueData = 1
         }
     }
-    
+
     if ($fAllowToGetHelp) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\fAllowToGetHelp'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'fAllowToGetHelp'
@@ -1268,7 +1268,7 @@ configuration DoD_Windows_11_v2r2
     if ($fAllowFullControl) {
         RegistryPolicyFile 'DEL_\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\fAllowFullControl'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'String'
             Ensure = 'Absent'
             TargetType = 'ComputerConfiguration'
@@ -1276,11 +1276,11 @@ configuration DoD_Windows_11_v2r2
             ValueData = ''
         }
     }
-    
+
     if ($MaxTicketExpiry) {
         RegistryPolicyFile 'DEL_\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\MaxTicketExpiry'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'String'
             Ensure = 'Absent'
             TargetType = 'ComputerConfiguration'
@@ -1288,11 +1288,11 @@ configuration DoD_Windows_11_v2r2
             ValueData = ''
         }
     }
-    
+
     if ($MaxTicketExpiryUnits) {
         RegistryPolicyFile 'DEL_\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\MaxTicketExpiryUnits'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'String'
             Ensure = 'Absent'
             TargetType = 'ComputerConfiguration'
@@ -1300,11 +1300,11 @@ configuration DoD_Windows_11_v2r2
             ValueData = ''
         }
     }
-    
+
     if ($fUseMailto) {
         RegistryPolicyFile 'DEL_\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\fUseMailto'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'String'
             Ensure = 'Absent'
             TargetType = 'ComputerConfiguration'
@@ -1312,11 +1312,11 @@ configuration DoD_Windows_11_v2r2
             ValueData = ''
         }
     }
-    
+
     if ($DisablePasswordSaving) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\DisablePasswordSaving'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisablePasswordSaving'
@@ -1327,62 +1327,62 @@ configuration DoD_Windows_11_v2r2
     if ($fDisableCdm) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\fDisableCdm'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'fDisableCdm'
             ValueData = 1
         }
     }
-    
+
     if ($fPromptForPassword) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\fPromptForPassword'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'fPromptForPassword'
             ValueData = 1
         }
     }
-    
+
     if ($fEncryptRPCTraffic) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\fEncryptRPCTraffic'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'fEncryptRPCTraffic'
             ValueData = 1
         }
     }
-    
+
     if ($MinEncryptionLevel) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\MinEncryptionLevel'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+            Key = 'SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'MinEncryptionLevel'
             ValueData = 3
         }
     }
-    
+
     if ($AllowWindowsInkWorkspace) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SOFTWARE\Policies\Microsoft\WindowsInkWorkspace\AllowWindowsInkWorkspace'
         {
-            Key = '\SOFTWARE\Policies\Microsoft\WindowsInkWorkspace'
+            Key = 'SOFTWARE\Policies\Microsoft\WindowsInkWorkspace'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'AllowWindowsInkWorkspace'
             ValueData = 1
         }
     }
-    
+
     if ($UseLogonCredential) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest\UseLogonCredential'
         {
-            Key = '\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest'
+            Key = 'SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'UseLogonCredential'
@@ -1393,51 +1393,51 @@ configuration DoD_Windows_11_v2r2
     if ($DisableExceptionChainValidation) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\kernel\DisableExceptionChainValidation'
         {
-            Key = '\SYSTEM\CurrentControlSet\Control\Session Manager\kernel'
+            Key = 'SYSTEM\CurrentControlSet\Control\Session Manager\kernel'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableExceptionChainValidation'
             ValueData = 0
         }
     }
-    
+
     if ($DriverLoadPolicy) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Policies\EarlyLaunch\DriverLoadPolicy'
         {
-            Key = '\SYSTEM\CurrentControlSet\Policies\EarlyLaunch'
+            Key = 'SYSTEM\CurrentControlSet\Policies\EarlyLaunch'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DriverLoadPolicy'
             ValueData = 3
         }
     }
-    
+
     if ($SMB1) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\SMB1'
         {
-            Key = '\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
+            Key = 'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'SMB1'
             ValueData = 0
         }
     }
-    
+
     if ($StartMrxSmb10) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Services\MrxSmb10\Start'
         {
-            Key = '\SYSTEM\CurrentControlSet\Services\MrxSmb10'
+            Key = 'SYSTEM\CurrentControlSet\Services\MrxSmb10'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'Start'
             ValueData = 4
         }
     }
-    
+
     if ($NoNameReleaseOnDemand) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Services\Netbt\Parameters\NoNameReleaseOnDemand'
         {
-            Key = '\SYSTEM\CurrentControlSet\Services\Netbt\Parameters'
+            Key = 'SYSTEM\CurrentControlSet\Services\Netbt\Parameters'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'NoNameReleaseOnDemand'
@@ -1448,36 +1448,36 @@ configuration DoD_Windows_11_v2r2
     if ($DisableIPSourceRouting) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\DisableIPSourceRouting'
         {
-            Key = '\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters'
+            Key = 'SYSTEM\CurrentControlSet\Services\Tcpip\Parameters'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableIPSourceRouting'
             ValueData = 2
         }
     }
-    
+
     if ($EnableICMPRedirect) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\EnableICMPRedirect'
         {
-            Key = '\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters'
+            Key = 'SYSTEM\CurrentControlSet\Services\Tcpip\Parameters'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'EnableICMPRedirect'
             ValueData = 0
         }
     }
-    
+
     if ($DisableIPSourceRoutingIPv6) {
         RegistryPolicyFile 'Registry(POL): HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters\DisableIPSourceRouting'
         {
-            Key = '\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters'
+            Key = 'SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters'
             ValueType = 'Dword'
             TargetType = 'ComputerConfiguration'
             ValueName = 'DisableIPSourceRouting'
             ValueData = 2
         }
     }
-    
+
     if ($AuditCredentialValidation) {
         AuditPolicySubcategory 'Audit Credential Validation (Success) - Inclusion'
         {
@@ -1495,7 +1495,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditSecurityGroupManagementSuccess) {
         AuditPolicySubcategory 'Audit Security Group Management (Success) - Inclusion'
         {
@@ -1504,7 +1504,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditSecurityGroupManagementFailure) {
         AuditPolicySubcategory 'Audit Security Group Management (Failure) - Inclusion'
         {
@@ -1513,7 +1513,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditUserAccountManagementSuccess) {
         AuditPolicySubcategory 'Audit User Account Management (Success) - Inclusion'
         {
@@ -1522,7 +1522,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditUserAccountManagementFailure) {
         AuditPolicySubcategory 'Audit User Account Management (Failure) - Inclusion'
         {
@@ -1531,7 +1531,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditPNPActivitySuccess) {
         AuditPolicySubcategory 'Audit PNP Activity (Success) - Inclusion'
         {
@@ -1540,7 +1540,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditPNPActivityFailure) {
         AuditPolicySubcategory 'Audit PNP Activity (Failure) - Inclusion'
         {
@@ -1549,7 +1549,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditProcessCreationSuccess) {
         AuditPolicySubcategory 'Audit Process Creation (Success) - Inclusion'
         {
@@ -1567,7 +1567,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditAccountLockoutFailure) {
         AuditPolicySubcategory 'Audit Account Lockout (Failure) - Inclusion'
         {
@@ -1576,7 +1576,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditAccountLockoutSuccess) {
         AuditPolicySubcategory 'Audit Account Lockout (Success) - Inclusion'
         {
@@ -1585,7 +1585,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditGroupMembershipSuccess) {
         AuditPolicySubcategory 'Audit Group Membership (Success) - Inclusion'
         {
@@ -1594,7 +1594,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditGroupMembershipFailure) {
         AuditPolicySubcategory 'Audit Group Membership (Failure) - Inclusion'
         {
@@ -1603,7 +1603,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditLogoffSuccess) {
         AuditPolicySubcategory 'Audit Logoff (Success) - Inclusion'
         {
@@ -1621,7 +1621,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditLogonSuccess) {
         AuditPolicySubcategory 'Audit Logon (Success) - Inclusion'
         {
@@ -1630,7 +1630,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditLogonFailure) {
         AuditPolicySubcategory 'Audit Logon (Failure) - Inclusion'
         {
@@ -1639,7 +1639,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditOtherLogonLogoffEventsSuccess) {
         AuditPolicySubcategory 'Audit Other Logon/Logoff Events (Success) - Inclusion'
         {
@@ -1648,7 +1648,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditOtherLogonLogoffEventsFailure) {
         AuditPolicySubcategory 'Audit Other Logon/Logoff Events (Failure) - Inclusion'
         {
@@ -1657,7 +1657,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditSpecialLogonSuccess) {
         AuditPolicySubcategory 'Audit Special Logon (Success) - Inclusion'
         {
@@ -1675,7 +1675,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditDetailedFileShareFailure) {
         AuditPolicySubcategory 'Audit Detailed File Share (Failure) - Inclusion'
         {
@@ -1684,7 +1684,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditDetailedFileShareSuccess) {
         AuditPolicySubcategory 'Audit Detailed File Share (Success) - Inclusion'
         {
@@ -1693,7 +1693,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditFileShareSuccess) {
         AuditPolicySubcategory 'Audit File Share (Success) - Inclusion'
         {
@@ -1702,7 +1702,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditFileShareFailure) {
         AuditPolicySubcategory 'Audit File Share (Failure) - Inclusion'
         {
@@ -1711,7 +1711,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditOtherObjectAccessEventsSuccess) {
         AuditPolicySubcategory 'Audit Other Object Access Events (Success) - Inclusion'
         {
@@ -1729,7 +1729,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditRemovableStorageSuccess) {
         AuditPolicySubcategory 'Audit Removable Storage (Success) - Inclusion'
         {
@@ -1738,7 +1738,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditRemovableStorageFailure) {
         AuditPolicySubcategory 'Audit Removable Storage (Failure) - Inclusion'
         {
@@ -1747,7 +1747,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditAuditPolicyChangeSuccess) {
         AuditPolicySubcategory 'Audit Audit Policy Change (Success) - Inclusion'
         {
@@ -1756,7 +1756,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditAuditPolicyChangeFailure) {
         AuditPolicySubcategory 'Audit Audit Policy Change (Failure) - Inclusion'
         {
@@ -1774,7 +1774,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditAuthenticationPolicyChangeFailure) {
         AuditPolicySubcategory 'Audit Authentication Policy Change (Failure) - Inclusion'
         {
@@ -1783,7 +1783,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditAuthorizationPolicyChangeSuccess) {
         AuditPolicySubcategory 'Audit Authorization Policy Change (Success) - Inclusion'
         {
@@ -1792,7 +1792,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditAuthorizationPolicyChangeFailure) {
         AuditPolicySubcategory 'Audit Authorization Policy Change (Failure) - Inclusion'
         {
@@ -1801,7 +1801,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditMPSSVCRuleLevelPolicyChangeSuccess) {
         AuditPolicySubcategory 'Audit MPSSVC Rule-Level Policy Change (Success) - Inclusion'
         {
@@ -1810,7 +1810,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditMPSSVCRuleLevelPolicyChangeFailure) {
         AuditPolicySubcategory 'Audit MPSSVC Rule-Level Policy Change (Failure) - Inclusion'
         {
@@ -1828,7 +1828,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditOtherPolicyChangeEventsFailure) {
         AuditPolicySubcategory 'Audit Other Policy Change Events (Failure) - Inclusion'
         {
@@ -1837,7 +1837,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditSensitivePrivilegeUseSuccess) {
         AuditPolicySubcategory 'Audit Sensitive Privilege Use (Success) - Inclusion'
         {
@@ -1846,7 +1846,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditSensitivePrivilegeUseFailure) {
         AuditPolicySubcategory 'Audit Sensitive Privilege Use (Failure) - Inclusion'
         {
@@ -1855,7 +1855,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditIPsecDriverFailure) {
         AuditPolicySubcategory 'Audit IPsec Driver (Failure) - Inclusion'
         {
@@ -1864,7 +1864,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditIPsecDriverSuccess) {
         AuditPolicySubcategory 'Audit IPsec Driver (Success) - Inclusion'
         {
@@ -1873,7 +1873,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditOtherSystemEventsSuccess) {
         AuditPolicySubcategory 'Audit Other System Events (Success) - Inclusion'
         {
@@ -1882,7 +1882,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditOtherSystemEventsFailure) {
         AuditPolicySubcategory 'Audit Other System Events (Failure) - Inclusion'
         {
@@ -1900,7 +1900,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditSecurityStateChangeFailure) {
         AuditPolicySubcategory 'Audit Security State Change (Failure) - Inclusion'
         {
@@ -1909,7 +1909,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditSecuritySystemExtensionSuccess) {
         AuditPolicySubcategory 'Audit Security System Extension (Success) - Inclusion'
         {
@@ -1918,7 +1918,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditSecuritySystemExtensionFailure) {
         AuditPolicySubcategory 'Audit Security System Extension (Failure) - Inclusion'
         {
@@ -1927,7 +1927,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($AuditSystemIntegritySuccess) {
         AuditPolicySubcategory 'Audit System Integrity (Success) - Inclusion'
         {
@@ -1936,7 +1936,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Success'
         }
     }
-    
+
     if ($AuditSystemIntegrityFailure) {
         AuditPolicySubcategory 'Audit System Integrity (Failure) - Inclusion'
         {
@@ -1945,7 +1945,7 @@ configuration DoD_Windows_11_v2r2
             AuditFlag = 'Failure'
         }
     }
-    
+
     if ($UserRightsAssignmentDelegation) {
         UserRightsAssignment 'UserRightsAssignment(INF): Enable_computer_and_user_accounts_to_be_trusted_for_delegation'
         {
@@ -1954,7 +1954,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Enable_computer_and_user_accounts_to_be_trusted_for_delegation'
         }
     }
-    
+
     if ($UserRightsAssignmentNetworkAccess) {
         UserRightsAssignment 'UserRightsAssignment(INF): Access_this_computer_from_the_network'
         {
@@ -1972,7 +1972,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Back_up_files_and_directories'
         }
     }
-    
+
     if ($UserRightsAssignmentRestoreFiles) {
         UserRightsAssignment 'UserRightsAssignment(INF): Restore_files_and_directories'
         {
@@ -1981,7 +1981,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Restore_files_and_directories'
         }
     }
-    
+
     if ($UserRightsAssignmentVolumeMaintenance) {
         UserRightsAssignment 'UserRightsAssignment(INF): Perform_volume_maintenance_tasks'
         {
@@ -1990,7 +1990,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Perform_volume_maintenance_tasks'
         }
     }
-    
+
     if ($UserRightsAssignmentLoadUnloadDrivers) {
         UserRightsAssignment 'UserRightsAssignment(INF): Load_and_unload_device_drivers'
         {
@@ -1999,7 +1999,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Load_and_unload_device_drivers'
         }
     }
-    
+
     if ($UserRightsAssignmentLockPages) {
         UserRightsAssignment 'UserRightsAssignment(INF): Lock_pages_in_memory'
         {
@@ -2008,7 +2008,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Lock_pages_in_memory'
         }
     }
-    
+
     if ($UserRightsAssignmentTakeOwnership) {
         UserRightsAssignment 'UserRightsAssignment(INF): Take_ownership_of_files_or_other_objects'
         {
@@ -2017,7 +2017,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Take_ownership_of_files_or_other_objects'
         }
     }
-    
+
     if ($UserRightsAssignmentCreatePermanentSharedObjects) {
         UserRightsAssignment 'UserRightsAssignment(INF): Create_permanent_shared_objects'
         {
@@ -2026,7 +2026,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Create_permanent_shared_objects'
         }
     }
-    
+
     if ($UserRightsAssignmentDenyNetworkAccess) {
         UserRightsAssignment 'UserRightsAssignment(INF): Deny_access_to_this_computer_from_the_network'
         {
@@ -2035,7 +2035,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Deny_access_to_this_computer_from_the_network'
         }
     }
-    
+
     if ($UserRightsAssignmentCreateGlobalObjects) {
         UserRightsAssignment 'UserRightsAssignment(INF): Create_global_objects'
         {
@@ -2053,7 +2053,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Deny_log_on_as_a_batch_job'
         }
     }
-    
+
     if ($UserRightsAssignmentAccessCredentialManager) {
         UserRightsAssignment 'UserRightsAssignment(INF): Access_Credential_Manager_as_a_trusted_caller'
         {
@@ -2062,7 +2062,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Access_Credential_Manager_as_a_trusted_caller'
         }
     }
-    
+
     if ($UserRightsAssignmentImpersonateClient) {
         UserRightsAssignment 'UserRightsAssignment(INF): Impersonate_a_client_after_authentication'
         {
@@ -2071,7 +2071,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Impersonate_a_client_after_authentication'
         }
     }
-    
+
     if ($UserRightsAssignmentDenyLogOnAsService) {
         UserRightsAssignment 'UserRightsAssignment(INF): Deny_log_on_as_a_service'
         {
@@ -2080,7 +2080,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Deny_log_on_as_a_service'
         }
     }
-    
+
     if ($UserRightsAssignmentForceShutdownRemote) {
         UserRightsAssignment 'UserRightsAssignment(INF): Force_shutdown_from_a_remote_system'
         {
@@ -2089,7 +2089,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Force_shutdown_from_a_remote_system'
         }
     }
-    
+
     if ($UserRightsAssignmentDenyLogOnLocally) {
         UserRightsAssignment 'UserRightsAssignment(INF): Deny_log_on_locally'
         {
@@ -2098,7 +2098,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Deny_log_on_locally'
         }
     }
-    
+
     if ($UserRightsAssignmentCreateSymbolicLinks) {
         UserRightsAssignment 'UserRightsAssignment(INF): Create_symbolic_links'
         {
@@ -2107,7 +2107,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Create_symbolic_links'
         }
     }
-    
+
     if ($UserRightsAssignmentDebugPrograms) {
         UserRightsAssignment 'UserRightsAssignment(INF): Debug_programs'
         {
@@ -2116,7 +2116,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Debug_programs'
         }
     }
-    
+
     if ($UserRightsAssignmentAllowLogOnLocally) {
         UserRightsAssignment 'UserRightsAssignment(INF): Allow_log_on_locally'
         {
@@ -2134,7 +2134,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Manage_auditing_and_security_log'
         }
     }
-    
+
     if ($UserRightsAssignmentActAsPartOfOS) {
         UserRightsAssignment 'UserRightsAssignment(INF): Act_as_part_of_the_operating_system'
         {
@@ -2143,7 +2143,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Act_as_part_of_the_operating_system'
         }
     }
-    
+
     if ($UserRightsAssignmentProfileSingleProcess) {
         UserRightsAssignment 'UserRightsAssignment(INF): Profile_single_process'
         {
@@ -2152,7 +2152,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Profile_single_process'
         }
     }
-    
+
     if ($UserRightsAssignmentCreateTokenObject) {
         UserRightsAssignment 'UserRightsAssignment(INF): Create_a_token_object'
         {
@@ -2161,7 +2161,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Create_a_token_object'
         }
     }
-    
+
     if ($UserRightsAssignmentChangeSystemTime) {
         UserRightsAssignment 'UserRightsAssignment(INF): Change_the_system_time'
         {
@@ -2170,7 +2170,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Change_the_system_time'
         }
     }
-    
+
     if ($UserRightsAssignmentModifyFirmwareValues) {
         UserRightsAssignment 'UserRightsAssignment(INF): Modify_firmware_environment_values'
         {
@@ -2179,7 +2179,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Modify_firmware_environment_values'
         }
     }
-    
+
     if ($UserRightsAssignmentCreatePagefile) {
         UserRightsAssignment 'UserRightsAssignment(INF): Create_a_pagefile'
         {
@@ -2188,7 +2188,7 @@ configuration DoD_Windows_11_v2r2
             Policy = 'Create_a_pagefile'
         }
     }
-    
+
     if ($UserRightsAssignmentDenyLogOnThroughRDS) {
         UserRightsAssignment 'UserRightsAssignment(INF): Deny_log_on_through_Remote_Desktop_Services'
         {
@@ -2220,7 +2220,7 @@ configuration DoD_Windows_11_v2r2
 
         }
     }
-    
+
     if ($RestrictAnonymousAccess) {
         SecurityOption 'SecurityRegistry(INF): Network_access_Restrict_anonymous_access_to_Named_Pipes_and_Shares'
         {
@@ -2228,7 +2228,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Network_access_Restrict_anonymous_access_to_Named_Pipes_and_Shares'
         }
     }
-    
+
     if ($StrongSessionKey) {
         SecurityOption 'SecurityRegistry(INF): Domain_member_Require_strong_Windows_2000_or_later_session_key'
         {
@@ -2236,7 +2236,7 @@ configuration DoD_Windows_11_v2r2
             Domain_member_Require_strong_Windows_2000_or_later_session_key = 'Enabled'
         }
     }
-    
+
     if ($ElevateUIAccessApps) {
         SecurityOption 'SecurityRegistry(INF): User_Account_Control_Only_elevate_UIAccess_applications_that_are_installed_in_secure_locations'
         {
@@ -2244,7 +2244,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'User_Account_Control_Only_elevate_UIAccess_applications_that_are_installed_in_secure_locations'
         }
     }
-    
+
     if ($MinimumSessionSecurityNTLM) {
         SecurityOption 'SecurityRegistry(INF): Network_security_Minimum_session_security_for_NTLM_SSP_based_including_secure_RPC_servers'
         {
@@ -2252,7 +2252,7 @@ configuration DoD_Windows_11_v2r2
             Network_security_Minimum_session_security_for_NTLM_SSP_based_including_secure_RPC_servers = 'Both options checked'
         }
     }
-    
+
     if ($AllowLocalSystemNullSessionFallback) {
         SecurityOption 'SecurityRegistry(INF): Network_security_Allow_LocalSystem_NULL_session_fallback'
         {
@@ -2268,7 +2268,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'System_cryptography_Use_FIPS_compliant_algorithms_for_encryption_hashing_and_signing'
         }
     }
-    
+
     if ($LANManagerAuthenticationLevel) {
         SecurityOption 'SecurityRegistry(INF): Network_security_LAN_Manager_authentication_level'
         {
@@ -2276,7 +2276,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Network_security_LAN_Manager_authentication_level'
         }
     }
-    
+
     if ($DisableMachineAccountPasswordChanges) {
         SecurityOption 'SecurityRegistry(INF): Domain_member_Disable_machine_account_password_changes'
         {
@@ -2284,7 +2284,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Domain_member_Disable_machine_account_password_changes'
         }
     }
-    
+
     if ($InteractiveLogonMessageTitle) {
         SecurityOption 'SecurityRegistry(INF): Interactive_logon_Message_title_for_users_attempting_to_log_on'
         {
@@ -2292,7 +2292,7 @@ configuration DoD_Windows_11_v2r2
             Interactive_logon_Message_title_for_users_attempting_to_log_on = 'US Department of Defense Warning Statement'
         }
     }
-    
+
     if ($DigitallySignSecureChannelData) {
         SecurityOption 'SecurityRegistry(INF): Domain_member_Digitally_sign_secure_channel_data_when_possible'
         {
@@ -2300,7 +2300,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Domain_member_Digitally_sign_secure_channel_data_when_possible'
         }
     }
-    
+
     if ($LimitLocalAccountUseOfBlankPasswords) {
         SecurityOption 'SecurityRegistry(INF): Accounts_Limit_local_account_use_of_blank_passwords_to_console_logon_only'
         {
@@ -2308,7 +2308,7 @@ configuration DoD_Windows_11_v2r2
             Accounts_Limit_local_account_use_of_blank_passwords_to_console_logon_only = 'Enabled'
         }
     }
-    
+
     if ($VirtualizeFileAndRegistryFailures) {
         SecurityOption 'SecurityRegistry(INF): User_Account_Control_Virtualize_file_and_registry_write_failures_to_per_user_locations'
         {
@@ -2324,7 +2324,7 @@ configuration DoD_Windows_11_v2r2
             Interactive_logon_Machine_inactivity_limit = '900'
         }
     }
-    
+
     if ($InteractiveLogonMessageText) {
         SecurityOption 'SecurityRegistry(INF): Interactive_logon_Message_text_for_users_attempting_to_log_on'
         {
@@ -2332,7 +2332,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Interactive_logon_Message_text_for_users_attempting_to_log_on'
         }
     }
-    
+
     if ($DigitallyEncryptSecureChannelData) {
         SecurityOption 'SecurityRegistry(INF): Domain_member_Digitally_encrypt_secure_channel_data_when_possible'
         {
@@ -2340,7 +2340,7 @@ configuration DoD_Windows_11_v2r2
             Domain_member_Digitally_encrypt_secure_channel_data_when_possible = 'Enabled'
         }
     }
-    
+
     if ($UACStandardUserElevationPrompt) {
         SecurityOption 'SecurityRegistry(INF): User_Account_Control_Behavior_of_the_elevation_prompt_for_standard_users'
         {
@@ -2348,7 +2348,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'User_Account_Control_Behavior_of_the_elevation_prompt_for_standard_users'
         }
     }
-    
+
     if ($UACAdminApprovalMode) {
         SecurityOption 'SecurityRegistry(INF): User_Account_Control_Admin_Approval_Mode_for_the_Built_in_Administrator_account'
         {
@@ -2364,7 +2364,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Microsoft_network_server_Digitally_sign_communications_always'
         }
     }
-    
+
     if ($NetworkClientDigitallySignCommunications) {
         SecurityOption 'SecurityRegistry(INF): Microsoft_network_client_Digitally_sign_communications_always'
         {
@@ -2372,7 +2372,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Microsoft_network_client_Digitally_sign_communications_always'
         }
     }
-    
+
     if ($MinimumSessionSecurityNTLMSP) {
         SecurityOption 'SecurityRegistry(INF): Network_security_Minimum_session_security_for_NTLM_SSP_based_including_secure_RPC_clients'
         {
@@ -2380,7 +2380,7 @@ configuration DoD_Windows_11_v2r2
             Network_security_Minimum_session_security_for_NTLM_SSP_based_including_secure_RPC_clients = 'Both options checked'
         }
     }
-    
+
     if ($UACRunAllAdminsInAdminApprovalMode) {
         SecurityOption 'SecurityRegistry(INF): User_Account_Control_Run_all_administrators_in_Admin_Approval_Mode'
         {
@@ -2388,7 +2388,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'User_Account_Control_Run_all_administrators_in_Admin_Approval_Mode'
         }
     }
-    
+
     if ($UACDetectApplicationInstallations) {
         SecurityOption 'SecurityRegistry(INF): User_Account_Control_Detect_application_installations_and_prompt_for_elevation'
         {
@@ -2396,7 +2396,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'User_Account_Control_Detect_application_installations_and_prompt_for_elevation'
         }
     }
-    
+
     if ($DoNotAllowAnonymousEnumeration) {
         SecurityOption 'SecurityRegistry(INF): Network_access_Do_not_allow_anonymous_enumeration_of_SAM_accounts'
         {
@@ -2404,7 +2404,7 @@ configuration DoD_Windows_11_v2r2
             Network_access_Do_not_allow_anonymous_enumeration_of_SAM_accounts = 'Enabled'
         }
     }
-    
+
     if ($ConfigureEncryptionTypesKerberos) {
         SecurityOption 'SecurityRegistry(INF): Network_security_Configure_encryption_types_allowed_for_Kerberos'
         {
@@ -2420,7 +2420,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Microsoft_network_client_Send_unencrypted_password_to_third_party_SMB_servers'
         }
     }
-    
+
     if ($InteractiveLogonPreviousLogonsCache) {
         SecurityOption 'SecurityRegistry(INF): Interactive_logon_Number_of_previous_logons_to_cache_in_case_domain_controller_is_not_available'
         {
@@ -2428,7 +2428,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Interactive_logon_Number_of_previous_logons_to_cache_in_case_domain_controller_is_not_available'
         }
     }
-    
+
     if ($MaxMachineAccountPasswordAge) {
         SecurityOption 'SecurityRegistry(INF): Domain_member_Maximum_machine_account_password_age'
         {
@@ -2436,7 +2436,7 @@ configuration DoD_Windows_11_v2r2
             Domain_member_Maximum_machine_account_password_age = '30'
         }
     }
-    
+
     if ($DoNotAllowAnonymousEnumerationShares) {
         SecurityOption 'SecurityRegistry(INF): Network_access_Do_not_allow_anonymous_enumeration_of_SAM_accounts_and_shares'
         {
@@ -2444,7 +2444,7 @@ configuration DoD_Windows_11_v2r2
             Network_access_Do_not_allow_anonymous_enumeration_of_SAM_accounts_and_shares = 'Enabled'
         }
     }
-    
+
     if ($ForceAuditPolicySubcategorySettings) {
         SecurityOption 'SecurityRegistry(INF): Audit_Force_audit_policy_subcategory_settings_Windows_Vista_or_later_to_override_audit_policy_category_settings'
         {
@@ -2452,7 +2452,7 @@ configuration DoD_Windows_11_v2r2
             Audit_Force_audit_policy_subcategory_settings_Windows_Vista_or_later_to_override_audit_policy_category_settings = 'Enabled'
         }
     }
-    
+
     if ($StrengthenDefaultPermissions) {
         SecurityOption 'SecurityRegistry(INF): System_objects_Strengthen_default_permissions_of_internal_system_objects_eg_Symbolic_Links'
         {
@@ -2460,7 +2460,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'System_objects_Strengthen_default_permissions_of_internal_system_objects_eg_Symbolic_Links'
         }
     }
-    
+
     if ($AllowPKU2UAuthenticationRequests) {
         SecurityOption 'SecurityRegistry(INF): Network_Security_Allow_PKU2U_authentication_requests_to_this_computer_to_use_online_identities'
         {
@@ -2476,7 +2476,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Domain_member_Digitally_encrypt_or_sign_secure_channel_data_always'
         }
     }
-    
+
     if ($SmartCardRemovalBehavior) {
         SecurityOption 'SecurityRegistry(INF): Interactive_logon_Smart_card_removal_behavior'
         {
@@ -2484,7 +2484,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Interactive_logon_Smart_card_removal_behavior'
         }
     }
-    
+
     if ($DoNotStoreLANManagerHash) {
         SecurityOption 'SecurityRegistry(INF): Network_security_Do_not_store_LAN_Manager_hash_value_on_next_password_change'
         {
@@ -2492,7 +2492,7 @@ configuration DoD_Windows_11_v2r2
             Network_security_Do_not_store_LAN_Manager_hash_value_on_next_password_change = 'Enabled'
         }
     }
-    
+
     if ($EveryonePermissionsForAnonymousUsers) {
         SecurityOption 'SecurityRegistry(INF): Network_access_Let_Everyone_permissions_apply_to_anonymous_users'
         {
@@ -2500,7 +2500,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Network_access_Let_Everyone_permissions_apply_to_anonymous_users'
         }
     }
-    
+
     if ($LDAPClientSigningRequirements) {
         SecurityOption 'SecurityRegistry(INF): Network_security_LDAP_client_signing_requirements'
         {
@@ -2508,7 +2508,7 @@ configuration DoD_Windows_11_v2r2
             Network_security_LDAP_client_signing_requirements = 'Negotiate Signing'
         }
     }
-    
+
     if ($UACAdminElevationPromptBehavior) {
         SecurityOption 'SecurityRegistry(INF): User_Account_Control_Behavior_of_the_elevation_prompt_for_administrators_in_Admin_Approval_Mode'
         {
@@ -2516,7 +2516,7 @@ configuration DoD_Windows_11_v2r2
             User_Account_Control_Behavior_of_the_elevation_prompt_for_administrators_in_Admin_Approval_Mode = 'Prompt for consent on the secure desktop'
         }
     }
-    
+
     if ($AccountLockoutDuration) {
         AccountPolicy 'SecuritySetting(INF): LockoutDuration'
         {
@@ -2524,7 +2524,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Account_lockout_duration'
         }
     }
-    
+
     if ($AccountLockoutThreshold) {
         AccountPolicy 'SecuritySetting(INF): LockoutBadCount'
         {
@@ -2540,7 +2540,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Reset_account_lockout_counter_after'
         }
     }
-    
+
     if ($RenameGuestAccount) {
         SecurityOption 'SecuritySetting(INF): NewGuestName'
         {
@@ -2548,7 +2548,7 @@ configuration DoD_Windows_11_v2r2
             Accounts_Rename_guest_account = 'Visitor'
         }
     }
-    
+
     if ($MinimumPasswordAge) {
         AccountPolicy 'SecuritySetting(INF): MinimumPasswordAge'
         {
@@ -2556,7 +2556,7 @@ configuration DoD_Windows_11_v2r2
             Minimum_Password_Age = 1
         }
     }
-    
+
     if ($PasswordComplexity) {
         AccountPolicy 'SecuritySetting(INF): PasswordComplexity'
         {
@@ -2564,7 +2564,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Password_must_meet_complexity_requirements'
         }
     }
-    
+
     if ($PasswordHistorySize) {
         AccountPolicy 'SecuritySetting(INF): PasswordHistorySize'
         {
@@ -2572,7 +2572,7 @@ configuration DoD_Windows_11_v2r2
             Enforce_password_history = 24
         }
     }
-    
+
     if ($AnonymousNameLookup) {
         SecurityOption 'SecuritySetting(INF): LSAAnonymousNameLookup'
         {
@@ -2588,7 +2588,7 @@ configuration DoD_Windows_11_v2r2
             Minimum_Password_Length = 14
         }
     }
-    
+
     if ($EnableAdminAccount) {
         SecurityOption 'SecuritySetting(INF): EnableAdminAccount'
         {
@@ -2596,7 +2596,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Accounts_Administrator_account_status'
         }
     }
-    
+
     if ($NewAdministratorName) {
         SecurityOption 'SecuritySetting(INF): NewAdministratorName'
         {
@@ -2604,7 +2604,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Accounts_Rename_administrator_account'
         }
     }
-    
+
     if ($EnableGuestAccount) {
         SecurityOption 'SecuritySetting(INF): EnableGuestAccount'
         {
@@ -2612,7 +2612,7 @@ configuration DoD_Windows_11_v2r2
             Accounts_Guest_account_status = 'Disabled'
         }
     }
-    
+
     if ($MaximumPasswordAge) {
         AccountPolicy 'SecuritySetting(INF): MaximumPasswordAge'
         {
@@ -2620,7 +2620,7 @@ configuration DoD_Windows_11_v2r2
             Name = 'Maximum_Password_Age'
         }
     }
-    
+
     if ($ClearTextPassword) {
         AccountPolicy 'SecuritySetting(INF): ClearTextPassword'
         {
@@ -2630,4 +2630,3 @@ configuration DoD_Windows_11_v2r2
     }
 
 }
-
